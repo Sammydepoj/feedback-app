@@ -69,7 +69,7 @@ const FeedbackPage = () => {
   };
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto p-8">
       <h1 className="text-2xl font-bold">Feedback App</h1>
       <Form addFeedback={addFeedback} />
       {loading && (
